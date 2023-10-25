@@ -1,0 +1,78 @@
+$bgcolor: lightblue;
+$tcolor: darkblue;
+$fontsize: 18px;
+
+
+h1 {
+    color: $tcolor;
+    }
+
+$myborderbox1: solid 2px red;
+$myborderbox2: dotted 2px red;
+.box1{
+    border: $myborderbox2;
+}
+
+
+//in sass nested 
+nav {
+    s
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+.myfont{
+    font: {
+        family: Helvetica, sans-serif;
+        size: 18px;
+        weight: bold;
+      }
+    color: $tcolor;        
+}
+
+.mytext{
+    text: {
+        align: center;
+        transform: lowercase;
+        overflow: hidden;
+      }
+      
+}
+
+
+.button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: lightgrey;
+  }
+
+  .primary  {
+    @extend .button-basic;
+    background-color: skyblue;
+  }
+  
+  .success  {
+    @extend .button-basic;
+    background-color: green;
+  }
+
+  .danger  {
+    @extend .button-basic;
+    background-color: red;
+  }

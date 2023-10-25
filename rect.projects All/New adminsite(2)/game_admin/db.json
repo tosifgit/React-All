@@ -1,0 +1,136 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "raj",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "status": "Unblock"
+        },
+        {
+            "id": 2,
+            "name": "akash",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "status": "Unblock"
+        },
+        {
+            "id": 3,
+            "name": "nirav",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "status": "Unblock"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "cate_name": "Mens",
+            "cate_img": "demo@gmail.com",
+            "created_at": "",
+            "updated_at": ""
+        },
+        {
+            "id": 2,
+            "cate_name": "Womens",
+            "cate_img": "demo@gmail.com",
+            "created_at": "",
+            "updated_at": ""
+        }
+    ],
+    "contact": [
+        {
+            "id": 1,
+            "name": "raj",
+            "email": "demo@gmail.com",
+            "mobile": 9722041171,
+            "comment": "demo comment"
+        },
+        {
+            "id": 2,
+            "name": "akash",
+            "email": "demo@gmail.com",
+            "mobile": 9722041171,
+            "comment": "demo comment"
+        },
+        {
+            "id": 3,
+            "name": "nirav",
+            "email": "demo@gmail.com",
+            "mobile": 9722041171,
+            "comment": "demo comment"
+        }
+    ],
+    "employee": [
+        {
+            "id": 1,
+            "name": "raj",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "img": ""
+        },
+        {
+            "id": 2,
+            "name": "akash",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "img": ""
+        },
+        {
+            "id": 3,
+            "name": "nirav",
+            "email": "demo@gmail.com",
+            "password": "123456",
+            "mobile": 9722041171,
+            "img": ""
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "title": "New Course",
+            "desc": "New Course launch at 31/12/23",
+            "img": ""
+        },
+        {
+            "id": 2,
+            "title": "New product",
+            "desc": "New product launch at 31/12/23",
+            "img": ""
+        }
+    ],
+    "admin": [
+        {
+            "id": 1,
+            "name": "admin",
+            "email": "admin",
+            "password": "1234",
+            "img": ""
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "cate_id": 1,
+            "title": "Mens Blue Denim",
+            "desc": "Mens Blue Denim",
+            "img": "",
+            "main_price": "499",
+            "disc_price": "399"
+        },
+        {
+            "id": 2,
+            "cate_id": 2,
+            "title": "Womens Blue Denim",
+            "desc": "Womens Blue Denim",
+            "img": "",
+            "main_price": "999",
+            "disc_price": "899"
+        }
+    ]
+  }
